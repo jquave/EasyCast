@@ -21,6 +21,7 @@
 // SOFTWARE.
 
 import Foundation
+import CoreGraphics
 
 func -(lhs: Int, rhs: Float) -> Float {
     return Float(lhs) - Float(rhs)
