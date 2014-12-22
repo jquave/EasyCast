@@ -108,6 +108,42 @@ func *(lhs: CGFloat, rhs: Double) -> CGFloat {
     return CGFloat(lhs) * CGFloat(rhs)
 }
 
+func %(lhs: Int, rhs: Float) -> Float {
+    return Float(lhs) % Float(rhs)
+}
+func %(lhs: Int, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
+func %(lhs: Int, rhs: Double) -> Double {
+    return Double(lhs) % Double(rhs)
+}
+func %(lhs: Float, rhs: Int) -> Float {
+    return Float(lhs) % Float(rhs)
+}
+func %(lhs: Float, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
+func %(lhs: Float, rhs: Double) -> Double {
+    return Double(lhs) % Double(rhs)
+}
+func %(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
+func %(lhs: CGFloat, rhs: Float) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
+func %(lhs: CGFloat, rhs: Double) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
+func %(lhs: Double, rhs: Int) -> Double {
+    return Double(lhs) % Double(rhs)
+}
+func %(lhs: Double, rhs: Float) -> Double {
+    return Double(lhs) % Double(rhs)
+}
+func %(lhs: Double, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) % CGFloat(rhs)
+}
 
 func min(x: Int, y: Float) -> Float {
     return min(Float(x), Float(y))
