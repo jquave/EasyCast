@@ -1,7 +1,9 @@
 // EasyCast.swift
 // 
 // Copyright (c) 2014 Jameson Quave
-// 
+//
+// Updated to Swift 4 by A&D Progress aka verebes (c) 2018
+//
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
@@ -109,40 +111,40 @@ func *(lhs: CGFloat, rhs: Double) -> CGFloat {
 }
 
 func %(lhs: Int, rhs: Float) -> Float {
-    return Float(lhs) % Float(rhs)
+    return Float(lhs).truncatingRemainder(dividingBy: Float(rhs))
 }
 func %(lhs: Int, rhs: CGFloat) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 func %(lhs: Int, rhs: Double) -> Double {
-    return Double(lhs) % Double(rhs)
+    return Double(lhs).truncatingRemainder(dividingBy: Double(rhs))
 }
 func %(lhs: Float, rhs: Int) -> Float {
-    return Float(lhs) % Float(rhs)
+    return Float(lhs).truncatingRemainder(dividingBy: Float(rhs))
 }
 func %(lhs: Float, rhs: CGFloat) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 func %(lhs: Float, rhs: Double) -> Double {
-    return Double(lhs) % Double(rhs)
+    return Double(lhs).truncatingRemainder(dividingBy: Double(rhs))
 }
 func %(lhs: CGFloat, rhs: Int) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 func %(lhs: CGFloat, rhs: Float) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 func %(lhs: CGFloat, rhs: Double) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 func %(lhs: Double, rhs: Int) -> Double {
-    return Double(lhs) % Double(rhs)
+    return Double(lhs).truncatingRemainder(dividingBy: Double(rhs))
 }
 func %(lhs: Double, rhs: Float) -> Double {
-    return Double(lhs) % Double(rhs)
+    return Double(lhs).truncatingRemainder(dividingBy: Double(rhs))
 }
 func %(lhs: Double, rhs: CGFloat) -> CGFloat {
-    return CGFloat(lhs) % CGFloat(rhs)
+    return CGFloat(lhs).truncatingRemainder(dividingBy: CGFloat(rhs))
 }
 
 func min(x: Int, y: Float) -> Float {
