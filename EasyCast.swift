@@ -149,72 +149,72 @@ func min(x: Int, y: Float) -> Float {
     return min(Float(x), Float(y))
 }
 func max(x: Int, y: Float) -> Float {
-    return min(Float(x), Float(y))
+    return max(Float(x), Float(y))
 }
 func min(x: Int, y: CGFloat) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: Int, y: CGFloat) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 func min(x: Int, y: Double) -> Double {
     return min(Double(x), Double(y))
 }
 func max(x: Int, y: Double) -> Double {
-    return min(Double(x), Double(y))
+    return max(Double(x), Double(y))
 }
 func min(x: Float, y: Int) -> Float {
     return min(Float(x), Float(y))
 }
 func max(x: Float, y: Int) -> Float {
-    return min(Float(x), Float(y))
+    return max(Float(x), Float(y))
 }
 func min(x: Float, y: CGFloat) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: Float, y: CGFloat) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 func min(x: Float, y: Double) -> Double {
     return min(Double(x), Double(y))
 }
 func max(x: Float, y: Double) -> Double {
-    return min(Double(x), Double(y))
+    return max(Double(x), Double(y))
 }
 func min(x: CGFloat, y: Int) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: CGFloat, y: Int) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 func min(x: CGFloat, y: Float) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: CGFloat, y: Float) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 func min(x: CGFloat, y: Double) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: CGFloat, y: Double) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 func min(x: Double, y: Int) -> Double {
     return min(Double(x), Double(y))
 }
 func max(x: Double, y: Int) -> Double {
-    return min(Double(x), Double(y))
+    return max(Double(x), Double(y))
 }
 func min(x: Double, y: Float) -> Double {
     return min(Double(x), Double(y))
 }
 func max(x: Double, y: Float) -> Double {
-    return min(Double(x), Double(y))
+    return max(Double(x), Double(y))
 }
 func min(x: Double, y: CGFloat) -> CGFloat {
     return min(CGFloat(x), CGFloat(y))
 }
 func max(x: Double, y: CGFloat) -> CGFloat {
-    return min(CGFloat(x), CGFloat(y))
+    return max(CGFloat(x), CGFloat(y))
 }
 
